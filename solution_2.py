@@ -7,12 +7,12 @@ def convert_to_hex(rgb):
 
 rgb_tuple = (255, 0, 0)
 hex_color = convert_to_hex(rgb_tuple)
-print("HEX:", hex_color)
+print("HEX:", hex_color.upper())
 
-rgb_tuple = (0, 250, 0)
+rgb_tuple = (0, 255, 0)
 hex_color = convert_to_hex(rgb_tuple)
-print("HEX:", hex_color)
+print("HEX:", hex_color.upper())
 
-rgb_tuple = (0, 0, 250)
+rgb_tuple = (0, 0, 255)
 hex_color = convert_to_hex(rgb_tuple)
-print("HEX:", hex_color)
+print("HEX:", hex_color.upper())
